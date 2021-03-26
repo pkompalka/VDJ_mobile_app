@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="VDJApp.App">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="NavigationPrimary">#FFA30707</Color>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#FFA30707"/>
+                <Setter Property="BarTextColor" Value="#FFF0C30E"/>
+                <Setter Property="BackgroundColor" Value="#FF1A1818"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

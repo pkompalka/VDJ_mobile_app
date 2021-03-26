@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:local="clr-namespace:VDJApp.Behaviors"
+             mc:Ignorable="d"
+             x:Class="VDJApp.Views.NowPlayingPage"
+             Title="{Binding Title}">
+
+    <ContentPage.Behaviors>
+        <local:OnAppearingBehavior Command="{Binding GetCurrentSongCommand}"/>
+    </ContentPage.Behaviors>
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Vote" Command="{Binding SendVoteCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="{Binding ImageNextWidth}"/>
+            </Grid.RowDefinitions>
+            <ScrollView>
+                <StackLayout Grid.Column="0" Grid.Row="0" Spacing="10" Padding="25">
+                    <Image HeightRequest="{Binding ImageWidth}" WidthRequest="{Binding ImageWidth}" Source="{Binding CurrentSource}" BackgroundColor="#FF1A1818" Aspect="AspectFit"/>
+                    <Label HorizontalOptions="Center" Text="{Binding CurrentSongTitle}" FontSize="Title" FontAttributes="Bold" TextColor="#FFF0C30E" VerticalOptions="Center"/>
+                    <Label HorizontalOptions="Center" Text="{Binding ByString}" FontSize="Small" TextColor="Gray" VerticalOptions="Center"/>
+                    <Label HorizontalOptions="Center" Text="{Binding CurrentSongAuthor}" FontSize="Medium" TextColor="#FFA30707" VerticalOptions="Center"/>
+                    <Label HorizontalOptions="Center" Text="{Binding FromAlbumString}" FontSize="Small" TextColor="Gray" VerticalOptions="Center"/>
+                    <Label HorizontalOptions="Center" Text="{Binding CurrentSongAlbum}" FontSize="Medium" TextColor="SkyBlue" VerticalOptions="Center"/>
+                </StackLayout>
+            </ScrollView>
+            <StackLayout Grid.Column="0" Grid.Row="1" Orientation="Horizontal" BackgroundColor="#FFA30707">
+                <Image HeightRequest="{Binding ImageNextWidth}" WidthRequest="{Binding ImageNextWidth}" Source="{Binding NextSource}" BackgroundColor="#FFA30707" Aspect="AspectFit"/>
+                <Label HorizontalOptions="Start" Text="{Binding NextSongInfo}" FontSize="Small" TextColor="#FFF0C30E" VerticalOptions="Center"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

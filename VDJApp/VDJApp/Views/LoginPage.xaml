@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="VDJApp.Views.LoginPage">
+    
+    <ContentPage.Content>
+        <Grid BackgroundColor="#FF1A1818">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" HorizontalOptions="Center" Text="Welcome to VDJApp!" FontSize="Title" FontAttributes="Bold" TextColor="#FFF0C30E" VerticalOptions="End"/>
+            <Label Grid.Row="1" HorizontalOptions="Start" Text="Username:" FontSize="Large" FontAttributes="Bold" TextColor="#FFA30707" VerticalOptions="End"/>
+            <Entry Grid.Row="2" IsEnabled="{Binding IsButtonNotClicked}" IsPassword="False" Text="{Binding Username}" VerticalOptions="Start"  BackgroundColor="White"/>
+            <Label Grid.Row="3" HorizontalOptions="Start" Text="Password:" FontSize="Large" FontAttributes="Bold" TextColor="#FFA30707" VerticalOptions="End"/>
+            <Entry Grid.Row="4" IsEnabled="{Binding IsButtonNotClicked}" IsPassword="True" Text="{Binding Password}" VerticalOptions="Start"  BackgroundColor="White"/>
+            <Label Grid.Row="5" HorizontalOptions="Center" Text="{Binding NoLoginMessage}" FontSize="Medium" TextColor="#FFA30707" VerticalOptions="Center" HorizontalTextAlignment="Center"/>
+            <Button Grid.Row="6" IsEnabled="{Binding IsButtonNotClicked}" Text="Log in" FontAttributes="Bold" BackgroundColor="#FFA30707" FontSize="Medium" TextColor="#FFF0C30E" Command="{Binding TryLoginCommand}"/>
+            <ActivityIndicator Grid.Row="5" IsRunning="{Binding IsLoading}" Color="#FFA30707" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

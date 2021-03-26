@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:local="clr-namespace:VDJApp.Behaviors"
+             mc:Ignorable="d"
+             x:Class="VDJApp.Views.ChatPage"
+             Title="{Binding Title}">
+
+    <ContentPage.Behaviors>
+        <local:OnAppearingBehavior Command="{Binding StartChatCommand}"/>
+        <local:OnDisappearingBehavior Command="{Binding EndChatCommand}"/>
+    </ContentPage.Behaviors>
+    
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="85*"/>
+                <ColumnDefinition Width="15*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <ListView Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" ItemsSource="{Binding ChatObservableCollection}" x:Name="SongsListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Text="{Binding}" FontSize="Small" TextColor="#FFA30707"/>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Entry Grid.Column="0" Grid.Row="1" Placeholder="Type message" Text="{Binding MessageToSend}" BackgroundColor="White"/>
+            <ImageButton Grid.Column="1" Grid.Row="1" Source="send_arrow.png" BackgroundColor="Green" Command="{Binding SendMessageCommand}" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+

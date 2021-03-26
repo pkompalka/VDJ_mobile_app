@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="VDJApp.Views.SongSelectedRequestPage"
+             Title="{Binding Title}">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Grid.Column="0" Grid.Row="0" Spacing="10" Padding="25">
+                <Image HeightRequest="{Binding ImageWidth}" WidthRequest="{Binding ImageWidth}" Source="{Binding CurrentSource}" BackgroundColor="#FF1A1818" Aspect="AspectFit"/>
+                <Label HorizontalOptions="Center" Text="{Binding Song.Title}" FontSize="Title" FontAttributes="Bold" TextColor="#FFF0C30E" VerticalOptions="Center"/>
+                <Label HorizontalOptions="Center" Text="by" FontSize="Small" TextColor="Gray" VerticalOptions="Center"/>
+                <Label HorizontalOptions="Center" Text="{Binding Song.FullAuthor}" FontSize="Medium" TextColor="#FFA30707" VerticalOptions="Center"/>
+                <Label HorizontalOptions="Center" Text="From album:" FontSize="Small" TextColor="Gray" VerticalOptions="Center"/>
+                <Label HorizontalOptions="Center" Text="{Binding Song.Album}" FontSize="Medium" TextColor="SkyBlue" VerticalOptions="Center"/>
+                <Button Text="Request song" BackgroundColor="#FFA30707" TextColor="#FFF0C30E" Command="{Binding DedicationSongCommand}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

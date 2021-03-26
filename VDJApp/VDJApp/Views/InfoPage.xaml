@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:VDJApp.Behaviors"
+             mc:Ignorable="d"
+             x:Class="VDJApp.Views.InfoPage"
+             Title="{Binding Title}">
+
+    <ContentPage.Behaviors>
+        <local:OnAppearingBehavior Command="{Binding LoadInfoCommand}"/>
+    </ContentPage.Behaviors>
+
+    <ScrollView>
+        <StackLayout HorizontalOptions="Center" Orientation="Vertical" Padding="20,20,20,0" VerticalOptions="Start" Spacing="20">
+            <Label HorizontalOptions="Center" Text="{Binding Username}" FontSize="Title" FontAttributes="Bold" TextColor="#FFF0C30E" VerticalOptions="End"/>
+            <Label HorizontalOptions="Center" Text="{Binding RequestsNumberInfo}" FontSize="Medium" TextColor="#FFA30707" VerticalOptions="End"/>
+            <Label HorizontalOptions="Center" Text="{Binding UsersNumberInfo}" FontSize="Medium" TextColor="#FFF0C30E" VerticalOptions="End"/>
+            <Button Text="Log out" BackgroundColor="#FFA30707" TextColor="#FFF0C30E" FontAttributes="Bold" Command="{Binding LogOutCommand}"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

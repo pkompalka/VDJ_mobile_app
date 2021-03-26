@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:local="clr-namespace:VDJApp.Behaviors"
+             mc:Ignorable="d"
+             x:Class="VDJApp.Views.RequestSongPage"
+             Title="{Binding Title}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Search by artist" Command="{Binding RequestByAuthorCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+        <SearchBar x:Name="SearchBar" Placeholder="Search title" BackgroundColor="White" CancelButtonColor="Black" TextColor="Black" PlaceholderColor="Gray" SearchCommand="{Binding SearchTitleCommand}" SearchCommandParameter="{Binding Text, Source={x:Reference SearchBar}}" Text="{Binding SearchTitle, Mode=TwoWay}">
+            <SearchBar.Behaviors>
+                <local:TextChangedBehavior/>
+            </SearchBar.Behaviors>
+        </SearchBar>
+        <ListView ItemsSource="{Binding SongDatabaseObservable}" x:Name="SongListView" BackgroundColor="#FF1A1818" SeparatorColor="#FFA30707">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout BackgroundColor="#FF1A1818" Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal" BackgroundColor="#FF1A1818">
+                                <Label Text="{Binding Title}" TextColor="#FFF0C30E" />
+                                <Label Text="{Binding FullAuthor}" TextColor="#FFA30707" />
+                            </StackLayout>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding SongTappedRequestCommand}" CommandParameter="{Binding .}"/>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

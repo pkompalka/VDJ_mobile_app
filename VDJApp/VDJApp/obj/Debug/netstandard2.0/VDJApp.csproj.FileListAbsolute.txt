@@ -1,0 +1,111 @@
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.deps.json
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.dll
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\ref\VDJApp.dll
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.pdb
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.csprojAssemblyReference.cache
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.AssemblyInfoInputs.cache
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.AssemblyInfo.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.dll
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\ref\VDJApp.dll
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.pdb
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\ChatPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\NowPlayingPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\PlaylistPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\RequestSongPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\SongDetailPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\DedicationPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\SongSelectedRequestPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\RequestByAuthorPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.deps.json
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.dll
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\ref\VDJApp.dll
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.pdb
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.csprojAssemblyReference.cache
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\ChatPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\DedicationPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\NowPlayingPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\PlaylistPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\RequestByAuthorPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\RequestSongPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\SongDetailPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\SongSelectedRequestPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.AssemblyInfoInputs.cache
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.AssemblyInfo.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.dll
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\ref\VDJApp.dll
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.pdb
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\DonatePage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\InfoPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\DonatePage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\InfoPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\VotedSongPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\TopSongsPage.xaml.g.cs
+C:\Users\Piotr\Desktop\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\StartPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.deps.json
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.dll
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\ref\VDJApp.dll
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.pdb
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.csprojAssemblyReference.cache
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\ChatPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\DedicationPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\DonatePage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\InfoPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\NowPlayingPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\PlaylistPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\RequestByAuthorPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\RequestSongPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\SongDetailPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\SongSelectedRequestPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\StartPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\TopSongsPage.xaml.g.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.AssemblyInfoInputs.cache
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.AssemblyInfo.cs
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.dll
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\ref\VDJApp.dll
+C:\Users\Piotr\Desktop\vdj do wyslania\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.pdb
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.deps.json
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.dll
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\ref\VDJApp.dll
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\bin\Debug\netstandard2.0\VDJApp.pdb
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.csprojAssemblyReference.cache
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\ChatPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\DedicationPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\DonatePage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\InfoPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\NowPlayingPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\PlaylistPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\RequestByAuthorPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\RequestSongPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\SongDetailPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\SongSelectedRequestPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\StartPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\Views\TopSongsPage.xaml.g.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.AssemblyInfoInputs.cache
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.AssemblyInfo.cs
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.dll
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\ref\VDJApp.dll
+C:\Users\Piotr\Desktop\poprawiany\VDJProject\VDJApp\VDJApp\VDJApp\obj\Debug\netstandard2.0\VDJApp.pdb

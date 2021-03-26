@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="VDJApp.Views.DedicationPage"
+             Title="{Binding Title}">
+    
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="25">
+            <Label HorizontalOptions="Center" Text="Song you are requesting:" FontSize="Medium" FontAttributes="Bold" TextColor="#FFA30707" VerticalOptions="End"/>
+            <Label HorizontalOptions="Center" Text="{Binding Song.Title}" FontSize="Large" FontAttributes="Bold" TextColor="#FFF0C30E" VerticalOptions="End"/>
+            <Label HorizontalOptions="Center" Text="Add your dedication:" FontSize="Medium" TextColor="#FFA30707" VerticalOptions="End"/>
+            <Entry Text="{Binding Dedication}" VerticalOptions="Start" BackgroundColor="White"/>
+            <Button Text="Send request" BackgroundColor="Green" TextColor="White" Command="{Binding RequestSongCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
